@@ -1,0 +1,9 @@
+# encrypt.py
+
+def encrypt(data: str) -> str:
+    """Encrypt data by wrapping it in <enc> tags."""
+    return f"<enc>{data}</enc>"
+
+if __name__ == "__main__":
+    print(encrypt("Hello, world"))
+
